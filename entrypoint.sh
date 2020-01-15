@@ -35,7 +35,7 @@ if ! grep -q "$PACKAGE_VERSION" changelog.txt; then
   exit 1
 fi
 
-export DIST_DIR=dist
+export DIST_DIR=target
 
 export FILE_PATH=$DIST_DIR/$PACKAGE_FILE
 
